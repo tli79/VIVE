@@ -1,0 +1,11 @@
+filename = 'dvs_data.csv';
+M = readtable(filename, VariableNamingRule="preserve");
+ray_ox = M{:,1};
+ray_oy = M{:,2};
+ray_oz = M{:,3};
+dir_x  = M{:,4};
+dir_y  = M{:,5};
+dir_z  = M{:,6};
+ray_fx = M{:,7};
+ray_fy = M{:,8};
+ray_fz = M{:,9};
